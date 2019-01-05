@@ -1,0 +1,30 @@
+Object Oriented Programming
+DEV-C-PLUS-PLUS-PROGRAMS
+
+Struct
+
+I define “struct” in simple words, Struct is a combination of variables. Variables can be any Data type like that (int, float, string and so on). Data items include in structure is called members.
+This way you can make any struct;
+struct employee
+{
+	int employee;
+	float temp;
+	char choice;
+}
+when you make any struct you will use the word struct. Employee is a identifier, this is tag of structure or name of struct and this is use for declare the variables of struct. Declare name in struct ({ }) those are struct members. This is important point, In the defination of struct which variables declare in the struct, every variable have different name and when you close the struct you must put in the end semi-colon ( ; ).
+
+How to access the strcut members?
+
+Before you declare the struct membes in struct, Now if you want to access the strcut members outside the struct you should use the member access operator. There are two types of member access operator;
+
+1.	Dot operator ( . )
+2.	Arrow operator ( ? )
+
+Dot operator: you can access the data member with the help of Dot operator. Mean you can make object reference with the help of Dot operator. For example we made emple for object of employee.
+You want to access temp variable so you can access this way;
+
+								cout<<emple.temp;
+
+Arrow operator: You will use data arrow operator when you had declared pointer of object for the access of struct member.  Suppose you this point had been declared  *emple that point out the opbject employee. When you want to access of struct with the help of there so you will use Arrow operator.
+															
+								cout<<emple ->temp;
